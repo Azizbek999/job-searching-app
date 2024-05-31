@@ -38,33 +38,6 @@ const registerUser = async (req, res) => {
     }
 };
 
-// // @desc    Login user
-// // @route   POST /api/users/login
-// // @access  Public
-// const loginUser = async (req, res) => {
-//     const { email, password } = req.body;
-
-//     try {
-//         // Check if user exists
-//         let user = await User.findOne({ email });
-
-//         if (!user) {
-//             return res.status(400).json({ errors: [{ msg: 'Invalid Credentials' }] });
-//         }
-
-//         const isMatch = await bcrypt.compare(password, user.password);
-
-//         if (!isMatch) {
-//             return res.status(400).json({ errors: [{ msg: 'Invalid Credentials' }] });
-//         }
-
-//         // Return a token (implementation depends on your authentication strategy)
-//         res.json({ msg: 'User logged in successfully' }); // Replace with token generation
-//     } catch (err) {
-//         console.error(err.message);
-//         res.status(500).send('Server Error');
-//     }
-// };
 
 // @desc    Login user
 // @route   POST /api/users/login
