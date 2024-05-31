@@ -18,7 +18,7 @@ JobSpot is a platform designed to simplify the job search process for students a
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/JobSpot.git`
+1. Clone the repository: `git clone https://github.com/Azizbek999/job-searching-app.git`
 2. Install dependencies: `npm install`
 3. Set up MongoDB connection (see `config.js`)
 4. Start the server: `npm start`
